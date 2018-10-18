@@ -5,4 +5,5 @@
   04 - Conheça a nova API de datas do Java 8 - by Alexandre Aquiles e Rodrigo Ferreira (Caelum) <br/>
   05 - Criando anotações no Java - by Mário Alvial (Alura) <br/>
   06 - Componentes Reutilizáveis em Java com Reflexões e Anotações (One Exercise) - by Casa do Código <br/>
-  07 - Reduzindo de N ifs para nenhum com Strategy em Java  - by Alex Felipe (Alura)
+  07 - Reduzindo de N ifs para nenhum com Strategy em Java  - by Alex Felipe (Alura) <br/>
+  08 - Como separar palavras de String em Java  - by Alex Felipe (Alura)

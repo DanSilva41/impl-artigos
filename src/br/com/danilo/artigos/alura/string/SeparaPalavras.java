@@ -13,11 +13,11 @@ class SeparaPalavras {
         System.out.println(danilo.getNome());
 
         // Usando > split <
-        String[] textoSeparado = conteudoRecebido.split(";");
+        String[] textoSeparado = conteudoRecebido.split(";\\s");
         System.out.println(Arrays.asList(textoSeparado));
         danilo.setNome(textoSeparado[0]);
         danilo.setEmail(textoSeparado[1]);
-        danilo.setIdade(Integer.parseInt(textoSeparado[2].trim()));
+        danilo.setIdade(Integer.parseInt(textoSeparado[2]));
         System.out.println(danilo);
     }
 }
