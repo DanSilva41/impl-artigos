@@ -29,4 +29,13 @@ class Aluno {
     void setIdade(int idade) {
         this.idade = idade;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", idade=" + idade +
+                '}';
+    }
 }
