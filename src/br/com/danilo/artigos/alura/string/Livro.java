@@ -27,11 +27,11 @@ public class Livro {
     @Override
     public String toString() {
         if (descricao.length() > 30) {
-            return "nome: " + nome + "\nautor: " + autor + "\ndescricao: "
+            return "\nnome: " + nome + "\nautor: " + autor + "\ndescricao: "
                     + descricao.substring(0, 30) + "..."; // indice final NÃO é incluso
         }
 
-        return "nome: " + nome + "\nautor: " + autor + "\ndescricao: "
+        return "\nnome: " + nome + "\nautor: " + autor + "\ndescricao: "
                 + descricao;
     }
 }
